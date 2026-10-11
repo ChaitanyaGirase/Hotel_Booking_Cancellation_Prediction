@@ -1,5 +1,3 @@
-# 
-
 # \# Hotel Booking Cancellation Prediction
 
 # 

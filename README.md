@@ -1,132 +1,118 @@
-# \# Hotel Booking Cancellation Prediction
+# Hotel Booking Cancellation Prediction
 
-# 
 
-# \## Project Overview
+## Project Overview
 
-# This project uses machine learning to predict whether a hotel booking is likely to be cancelled. It helps explore booking patterns and factors associated with cancellations.
+ This project uses machine learning to predict whether a hotel booking is likely to be cancelled. It helps explore booking patterns and factors associated with cancellations.
 
-# 
 
-# \## Problem Statement
+## Problem Statement
 
-# Hotel booking cancellations can affect room availability and hotel revenue. The goal of this project is to build a classification model that predicts whether a booking will be cancelled based on booking details.
+ Hotel booking cancellations can affect room availability and hotel revenue. The goal of this project is to build a classification model that predicts whether a booking will be cancelled based on booking details.
 
-# 
 
-# \## Technologies Used
+## Technologies Used
 
-# \- Python
+- Python
 
-# \- Pandas and NumPy
+- Pandas and NumPy
 
-# \- Scikit-learn
+- Scikit-learn
 
-# \- XGBoost
+- XGBoost
 
-# \- Matplotlib and Seaborn
+- Matplotlib and Seaborn
 
-# \- Streamlit
+- Streamlit
 
-# \- Git and GitHub
+- Git and GitHub
 
-# 
 
-# \## Project Workflow
+## Project Workflow
 
-# 1\. Loaded and explored the hotel booking dataset.
+1. Loaded and explored the hotel booking dataset.
 
-# 2\. Checked and handled missing values and duplicate records.
+2. Checked and handled missing values and duplicate records.
 
-# 3\. Performed exploratory data analysis (EDA).
+3. Performed exploratory data analysis (EDA).
 
-# 4\. Prepared features for machine learning.
+4. Prepared features for machine learning.
 
-# 5\. Split the data into training and testing sets.
+5. Split the data into training and testing sets.
 
-# 6\. Trained and tuned an XGBoost classification model.
+6. Trained and tuned an XGBoost classification model.
 
-# 7\. Evaluated the model using classification metrics.
+7. Evaluated the model using classification metrics.
 
-# 8\. Saved the trained model using Joblib.
+8. Saved the trained model using Joblib.
 
-# 9\. Built and deployed an interactive Streamlit application.
+9. Built and deployed an interactive Streamlit application.
+ 
 
-# 
+## Model Performance
 
-# \## Model Performance
+ The tuned XGBoost model achieved the following results on the test set:
+ 
 
-# The tuned XGBoost model achieved the following results on the test set:
+ | Metric | Score |
 
-# 
+ |---|---:|
 
-# | Metric | Score |
+ | Accuracy | 85.33% |
 
-# |---|---:|
+ | Precision | 75.85% |
 
-# | Accuracy | 85.33% |
+ | Recall | 68.71% |
 
-# | Precision | 75.85% |
+ | F1-score | 72.10% |
 
-# | Recall | 68.71% |
+ | ROC-AUC | 92.02% |
+ 
 
-# | F1-score | 72.10% |
+ These results summarize performance on the test dataset. Actual performance may vary on new booking data.
+ 
 
-# | ROC-AUC | 92.02% |
+## Live Demo
 
-# 
+[Open the Hotel Booking Cancellation Prediction App](https://hotelbookingcancellationprediction-xxek5irzpusbnu9gidks3j.streamlit.app/)
 
-# These results summarize performance on the test dataset. Actual performance may vary on new booking data.
 
-# 
+## Repository Contents
 
-# \## Live Demo
+- `app.py` — Streamlit application
 
-# \[Open the Hotel Booking Cancellation Prediction App]
+- `model/` — Saved machine learning model
 
-# (https://hotelbookingcancellationprediction-xxek5irzpusbnu9gidks3j.streamlit.app/)
+- `requirements.txt` — Required Python libraries
 
-# 
+- `notebook/` — Project analysis and model development notebook
+ 
 
-# \## Repository Contents
+## How to Run Locally
 
-# \- `app.py` — Streamlit application
+ 1. Clone this repository.
 
-# \- `model/` — Saved machine learning model
+ 2. Install dependencies using `pip install -r requirements.txt`.
 
-# \- `requirements.txt` — Required Python libraries
+ 3. Run the application using `streamlit run app.py`.
 
-# \- `notebook/` — Project analysis and model development notebook
+ 
+## What I Learned
 
-# 
+- Data cleaning and exploratory data analysis
 
-# \## How to Run Locally
+- Feature preparation for classification
 
-# 1\. Clone this repository.
+- Training and tuning an XGBoost model
 
-# 2\. Install dependencies using `pip install -r requirements.txt`.
+- Evaluating model performance
 
-# 3\. Run the application using `streamlit run app.py`.
+- Deploying a machine learning application with Streamlit
+ 
 
-# 
+## Author
 
-# \## What I Learned
-
-# \- Data cleaning and exploratory data analysis
-
-# \- Feature preparation for classification
-
-# \- Training and tuning an XGBoost model
-
-# \- Evaluating model performance
-
-# \- Deploying a machine learning application with Streamlit
-
-# 
-
-# \## Author
-
-# Chaitanya Girase
+ Chaitanya Girase
 
 
 
